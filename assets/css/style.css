@@ -1,0 +1,41 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: lightgray;
+}
+
+input[name='task'] {
+  border: 4px solid black;
+}
+
+#createTaskButton,
+#deleteTaskButton {
+  display: inline-block;
+  background-color: darkslategray;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.inputText {
+  padding: 10px;
+  text-align: center;
+}
+
+#taskList > li {
+  display: flex;
+  box-sizing: border-box;
+  width: 550px;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#createTaskButton:active {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
+}
